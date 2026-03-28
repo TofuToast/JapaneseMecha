@@ -1,9 +1,42 @@
 body {
   background-color: rgb(210, 255, 214);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
- p {
-   width: 800px;
-  padding: 50px;
+#Introduction {
+  width: 800px;
+  padding: 10px;
+  margin: 10px;
+  background-color: rgb(255, 255, 255);
+}
+p {
+  text-indent: 40px;
+  line-height: 30px;
+}
+#References {
+  width: 800px;
+  padding: 10px;
   margin: 20px;
-  background-color: rgb(255,255,255);
- }
+  background-color: rgb(255, 255, 255);
+}
+#ExploreTheGenre {
+  width: 800px;
+  padding: 10px;
+  margin: 20px;
+  background-color: rgb(255, 255, 255);
+}
+.ExampleImage {
+}
+#NavigationTable {
+  width: 800px;
+  padding: 10px;
+  margin: 20px;
+  background-color: rgb(255, 255, 255);
+  font-size: 20px;
+}
+img {
+  max-width: 100%;
+  height: auto;
+  width: 400px;
+}

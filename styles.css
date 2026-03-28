@@ -2,8 +2,8 @@ body {
   background-color: rgb(146, 210, 162);
 }
  p {
-   width: 300px;
-  border: 15px solid green;
+   width: 1200px;
   padding: 50px;
   margin: 20px;
+  background-color: white;
  }
